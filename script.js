@@ -1,4 +1,4 @@
-// Archivo: script.js
+// Archivo: script.js del proyecto
 const convertirBtn = document.getElementById("convertirBtn");
 const celsiusInput = document.getElementById("celsiusInput");
 const listaConversiones = document.getElementById("listaConversiones");
