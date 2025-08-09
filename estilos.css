@@ -1,0 +1,76 @@
+/* Archivo: estilos.css */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f2f2f2;
+  margin: 0;
+  padding: 20px;
+}
+
+.container {
+  max-width: 500px;
+  margin: 0 auto;
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+h1 {
+  text-align: center;
+  color: #2c3e50;
+}
+
+.input-texto {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.boton {
+  background-color: #3498db;
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.boton:hover {
+  background-color: #2980b9;
+}
+
+#listaConversiones {
+  list-style: none;
+  padding: 0;
+}
+
+.conversion {
+  margin-bottom: 10px;
+  padding: 10px;
+  border-radius: 5px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  transition: all 0.3s ease;
+}
+
+.bajo-cero {
+  background-color: #aeeeee; /* Azul claro */
+}
+
+.temperatura-media {
+  background-color: #d4edda; /* Verde claro */
+}
+
+.muy-alta {
+  background-color: #f8d7da; /* Rojo claro */
+  color: #721c24; /* Color de texto oscuro */
+}
+
+.btn-accion {
+  margin-left: 10px;
+  cursor: pointer;
+  border: none;
+  background: none;
+  font-size: 1.2em;
+}
